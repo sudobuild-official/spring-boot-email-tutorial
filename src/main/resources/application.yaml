@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: email-tutorial
+
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 587
+    username: 35e6deb6a96c14
+    password: 5586f73ffbc7cc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
